@@ -8,6 +8,19 @@ It uses an incremental approach, so you can follow along the chapter and run cod
 
 Uses Docker and Python 3.6.
 
+The code values output more than readability (you can get that in the book itself!). As Docker is the only dependency,
+it makes it easy to run (and change!) the code and observe the results.
+
+Try it yourself, just have Docker installed and run:
+
+```bash
+# Run the first example - 01_async.py
+./run.sh
+
+# Run selected file - 04_refactored_coroutine_with_generators.py
+./run.sh 04_refactored_coroutine_with_generators.py
+```
+
 ### Licenses
 
 The written material in the book is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/.) and the 
